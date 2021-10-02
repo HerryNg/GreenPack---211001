@@ -1,0 +1,18 @@
+:root::after,
+::before {
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+.section {
+  width: 1140px;
+}
+
+.container {
+  width: 80vw;
+  margin: 0 auto;
+  font-family: "Amiri", serif;
+}
