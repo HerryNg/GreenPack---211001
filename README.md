@@ -15,3 +15,7 @@
 ## Josh: Product Explanation & About us
 
 ## Phuc: Navbar & Footer and Introduction
+
+## Deadline:
+
+## Monday: 8am
