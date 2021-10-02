@@ -8,11 +8,12 @@
 }
 
 .section {
-  width: 1140px;
+  width: 100%;
 }
 
 .container {
   width: 80vw;
   margin: 0 auto;
   font-family: "Amiri", serif;
+  width: 1140px;
 }
