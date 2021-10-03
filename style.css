@@ -91,3 +91,20 @@
 }
 
 /* Section3 */
+#section3 .container {
+  background-color: #fefbe9;
+}
+
+#section3 .product-B {
+  display: flex;
+  justify-content: space-around;
+}
+
+#section3 .product-L {
+  display: flex;
+  justify-content: space-around;
+}
+
+#section3 .left-40 {
+  margin-left: 40px;
+}
