@@ -1,21 +1,282 @@
-:root::after,
-::before {
-  box-sizing: border-box;
+:root {
+  --gRCustom: rgba(246, 196, 83, 1);
+
+  --oWCustom: rgba(254, 251, 233, 1);
+  --pumpkinSpice: rgba(240, 160, 75, 1);
+
+  --fGCustom: rgba(24, 58, 29, 1);
+
+  --cucumber: rgba(225, 238, 221, 1);
 }
 
 * {
-  box-sizing: inherit;
+  box-sizing: border-box;
+  font-family: "Amiri", serif;
 }
 
-.section {
-  width: 100%;
+nav {
+}
+
+section {
+  min-height: 550px;
 }
 
 .container {
-  width: 80vw;
   margin: 0 auto;
-  font-family: "Amiri", serif;
   width: 1140px;
+  height: 100%;
+}
+
+.content {
+}
+
+#section1 {
+  background-color: var(--fGCustom);
+  display: flex;
+  align-items: stretch;
+  margin: 0%;
+  padding: 0;
+}
+
+#container-1 {
+  border: solid 1px black;
+  height: 550px;
+  background: linear-gradient(
+      0deg,
+      rgba(24, 58, 29, 70%),
+      rgba(225, 221, 29, 90%)
+    ),
+    url(./img/banner-image.jpeg);
+  background-blend-mode: multiply;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#section1-content {
+  margin: 144px 16px 0 16px;
+}
+
+#s1-text {
+  text-align: center;
+}
+
+#big-heading {
+  color: white;
+
+  font-size: 72px;
+  line-height: 68px;
+  font-weight: 700;
+}
+
+#small-heading {
+  color: white;
+
+  font-size: 40px;
+  line-height: 48px;
+  font-weight: 700;
+
+  margin-top: 24px;
+}
+
+#main-browse-button {
+  margin-top: 24px;
+  font-size: 32px;
+
+  font-weight: 500;
+  padding: 8px 32px;
+  border-radius: 500px;
+  color: var(--oWCustom);
+  background-color: var(--fGCustom);
+}
+
+#section2 {
+}
+
+#section3 {
+}
+
+/* SECTION 4 */
+
+#section4 {
+  background-color: var(--cucumber);
+  min-height: 550px;
+}
+
+#s4-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 550px;
+}
+
+#s4-left-bg {
+  background-color: var(--fGCustom);
+  height: 350px;
+  width: 90%;
+
+  margin: 35px;
+}
+
+#s4-left {
+  width: 65%;
+
+  height: 350px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+}
+
+#trio-container {
+  height: 250px;
+  width: 300px;
+  top: -50px;
+  left: -50px;
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.trio-outer {
+}
+
+.s4-trio {
+  width: 28vw;
+  height: 21vh;
+  position: absolute;
+}
+
+#trio-1-outer {
+  align-self: flex-end;
+}
+
+#trio-3-outer {
+  align-self: flex-end;
+}
+
+#trio-1 {
+  background-image: url(./img/coconut-harvest.jpeg);
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+#trio-2 {
+  background-image: url(./img/coconut-fiber-vietnam.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+#trio-3 {
+  background: url(./img/brown-takeout-landscape.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.trio-content {
+  border: solid 1px red;
+
+  height: 100%;
+}
+
+#tc-1 {
+  background-color: rgba(24, 58, 29, 50%);
+}
+
+#tc-2 {
+  background-color: rgba(246, 196, 83, 50%);
+}
+
+#tc-3 {
+  background-color: rgba(225, 238, 221, 50%);
+}
+
+#s4-right {
+  width: 35%;
+}
+
+/* SECTION 5 */
+#section5 {
+  background-color: var(--fGCustom);
+  min-height: 650px;
+  display: flex;
+  align-items: center;
+}
+
+#s5-content {
+  height: 600px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--cucumber);
+}
+
+#s5-left {
+  width: 35%;
+  margin: 1rem;
+  color: var(--fGCustom);
+}
+
+.topic-text {
+  font-size: 18px;
+}
+
+.topic-heading {
+  font-size: 32px;
+}
+
+#s5-right-bg {
+  width: 65%;
+  height: 550px;
+  background-color: var(--fGCustom);
+  margin-right: 1rem;
+}
+
+#s5-right {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  margin: 1.5rem 1rem 1rem 1rem;
+}
+
+.bio-row {
+  display: flex;
+  background-color: var(--cucumber);
+  height: 32%;
+}
+
+.bio-text {
+  padding: 1rem;
+  margin: 0 1rem;
+  width: 85%;
+  color: var(--fGCustom);
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.founder-name {
+  font-size: 20px;
+  line-height: 18px;
+  padding: 0;
+  margin: 0;
+}
+
+.found-intro {
+  line-height: 24px;
+  padding: 0;
+  margin: 0;
+}
+
+.bio-img {
+  min-width: 15%;
+
+  background-color: white;
 }
 
 /* Section2 */
